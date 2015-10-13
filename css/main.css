@@ -1,1 +1,198 @@
-/* Your stylesheet goes here */
+@import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css";
+@import "https://fonts.googleapis.com/css?family=Raleway:400,300";
+@import "https://fonts.googleapis.com/css?family=Lato:400,300,300italic";
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css";
+body {
+  font-family: Lato, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  background-color: #E9EAEE; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Raleway, Helvetica Neue, Helvetica, sans-serif; }
+
+h2 {
+  color: #BC6026; }
+
+svg {
+  height: 1em; }
+
+#navBar {
+  width: 100%;
+  position: fixed;
+  background-color: #181C22; }
+
+#navBarList {
+  display: inline; }
+
+li a:hover, li a:focus {
+  text-decoration: none;
+  color: #D87E28; }
+li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px; }
+li svg {
+  fill: white; }
+li svg:hover, li svg:focus {
+  fill: #D87E28; }
+
+.infoIcons {
+  fill: #D87E28; }
+
+li {
+  display: inline;
+  font-variant: small-caps;
+  padding: 0.5em; }
+
+#mainHeader {
+  padding-top: 3em; }
+
+.bigOnly {
+  visibility: hidden; }
+
+h1 {
+  font-size: 60px; }
+
+#headlineText {
+  font-style: italic; }
+
+#headlineLogo {
+  visibility: hidden; }
+
+.infoIcons {
+  height: 1.5em;
+  margin-top: 1.2em;
+  margin-bottom: 0.7em; }
+
+#contactContainer {
+  background-color: #dbdce3;
+  padding-bottom: 1em; }
+
+#map {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border-radius: 5px; }
+
+.contLink {
+  color: #333;
+  text-decoration: none; }
+
+.contLink:hover, .contLink:focus, .contLink:active {
+  color: #333;
+  text-decoration: none; }
+
+dt {
+  font-style: italic;
+  font-weight: bold; }
+
+dd {
+  font-style: italic;
+  display: block;
+  margin-left: 1em; }
+
+h3 {
+  font-weight: bold; }
+
+#storyImg {
+  float: right;
+  max-height: 300px;
+  margin-right: 1em;
+  border-radius: 5px; }
+
+#aboutContainer p {
+  clear: none;
+  margin-left: 1em; }
+
+#aboutContainer {
+  background-color: #dbdce3;
+  padding-bottom: 1em; }
+
+#menuContainer {
+  padding-bottom: 1em; }
+
+#footer {
+  border-top: 3px solid #D87E28;
+  background-color: #afb3c2;
+  font-size: 12px;
+  padding-top: 1em;
+  clear: both; }
+
+#comingSoon {
+  margin-top: 1.5em;
+  margin-left: 0.5em;
+  font-size: 24px;
+  font-weight: bolder; }
+
+@media screen and (max-width: 768px) {
+  h3 {
+    text-align: left; }
+
+  h2 {
+    text-align: left; } }
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 20px; }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 1em; }
+
+  #navBar {
+    background-color: rgba(24, 28, 34, 0.8); }
+
+  .bigOnly {
+    visibility: visible; }
+
+  #mainHeader {
+    padding-right: 5em;
+    background-image: url("../img/background-sm.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: right;
+    height: auto;
+    min-height: 550px; }
+
+  h1 {
+    font-size: 100px; }
+
+  #headerNote {
+    font-size: 25px; }
+
+  #headlineLogo {
+    display: block;
+    fill: #D87E28;
+    margin-left: auto;
+    margin-right: auto;
+    visibility: visible;
+    height: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 1em; }
+
+  #headlineText {
+    font-size: 1.5em;
+    font-style: italic;
+    text-align: center; }
+
+  #headline {
+    padding-top: 3em;
+    padding-bottom: 3em; }
+
+  #menuContainer .row {
+    padding-left: 10em;
+    padding-right: auto; }
+
+  #storyImg {
+    max-height: 400px; }
+
+  #footer p {
+    text-align: right; } }
+@media screen and (min-width: 992px) {
+  #mainHeader {
+    background-image: url("../img/background-md.jpg"); } }
+@media screen and (min-width: 1200px) {
+  #mainHeader {
+    background-image: url("../img/background-lg.jpg"); } }
+
+/*# sourceMappingURL=main.css.map */
